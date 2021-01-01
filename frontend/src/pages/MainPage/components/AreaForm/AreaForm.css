@@ -1,0 +1,162 @@
+.send_form {
+    padding: 30px 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.send_form .coordinate_block {
+    margin: 0 0 8% 0;
+    width: 300px;
+}
+
+.send_form input, .send_form .x_select, .send_form .r_select {
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 2%;
+    width: 300px;
+    color: #330570;
+    border-color: #4F2982;
+    box-shadow: 2px 2px #330570;
+    background-color: #996AD6;
+    font-size: 16px;
+    outline: none;
+    transition-duration: 500ms;
+}
+
+.send_form .x_select, .send_form .r_select {
+    padding: 1px;
+}
+
+/*СУКА СПАСИБО ЗА ПРАЙМРЕАКТ ОБОЖАЮ БЛЯДЬ ФИКСИТЬ СТИЛИ ПОД СВОЙ ПРОЕКТ НАХУЙ!!!!!!!!*/
+.p-inputtext {
+    font-family: "Trebuchet MS", sans-serif !important;
+    color: #330570 !important;
+    font-size: 16px !important;
+}
+
+.p-inputtext:focus {
+    border-color: #A65F00 !important;
+    box-shadow: 0 2px 2px #FF9200 !important;
+}
+
+.p-dropdown:not(.p-disabled).p-focus {
+    border-color: #A65F00 !important;
+    box-shadow: 0 2px 2px #FF9200 !important;
+}
+
+.p-dropdown-items-wrapper {
+    background-color: #996AD6 !important;
+    border-color: #4F2982 !important;
+}
+
+.p-dropdown-item {
+    color: #330570 !important;
+}
+
+.p-dropdown-item.p-highlight {
+    background-color: #A65F00 !important;
+    color: white !important;
+}
+
+.p-dropdown-item:hover {
+    background-color: #330570 !important;
+    color: #FFFFFF !important;
+}
+
+.p-dropdown-trigger-icon {
+    color: white !important;
+}
+
+/*КОНЕЦ*/
+
+.send_form input:focus {
+    border-color: #A65F00;
+    box-shadow: 0 2px 2px #FF9200;
+}
+
+.send_form input::placeholder {
+    color: #330570;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.send_form label {
+    color: #FF9200;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.send_button_block {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.send_form .send_button {
+    padding: 10px 15px;
+    background-color: #996AD6 !important;
+    color: #330570 !important;
+    border-color: #4F2982 !important;
+    box-shadow: 0 2px 2px #FF9200 !important;
+    font-weight: 700;
+    outline: none;
+    transition-duration: 750ms;
+}
+
+.send_form .send_button:hover {
+    background-color: #330570 !important;
+    color: white !important;
+    border-color: #67E300 !important;
+    box-shadow: 0 -2px 4px #67E300 !important;
+}
+
+@media (max-width: 1152px) and (min-width: 843px) {
+
+}
+
+@media (max-width: 843px) {
+    .send_form {
+        padding: 10px 0;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .send_form .field_block {
+        margin: 0 0 8% 0;
+        width: 200px;
+    }
+
+    .send_form label {
+        font-size: 12px;
+
+    }
+
+    .send_form input, .send_form .x_select, .send_form .r_select, .p-inputtext {
+        width: 200px;
+        font-size: 10px !important;
+    }
+
+    .p-inputtext {
+        padding: 4px;
+    }
+
+    .p-component {
+        font-size: 8px !important;
+    }
+
+    .send_form .coordinate_block {
+        width: 200px;
+    }
+
+    .send_form .send_button_block {
+        width: 200px;
+        margin: 20px 0 0 0;
+    }
+
+    .send_form .send_button {
+        padding: 3px 5px;
+        font-size: 10px;
+        box-shadow: 0 1px 1px #FF9200 !important;
+    }
+
+}
+

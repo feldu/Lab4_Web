@@ -1,0 +1,21 @@
+.error_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.error_wrapper h1 {
+    font-size: 120px;
+    color: #E40045;
+    text-shadow: 3px 3px 0 #94002D;
+}
+
+@media (max-width: 1152px) and (min-width: 843px) {
+}
+
+@media (max-width: 843px) {
+    .error_wrapper h1 {
+        font-size: 48px;
+    }
+
+}

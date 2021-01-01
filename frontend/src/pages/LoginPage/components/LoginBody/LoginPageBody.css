@@ -1,0 +1,51 @@
+.login_content {
+    text-align: center;
+}
+
+.login_content .login_content_row {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    max-width: 1500px;
+    height: 200px;
+}
+
+.login_content .column {
+    max-width: 800px;
+    min-width: 400px;
+    padding: 15px;
+    background-color: #530FAD;
+    margin: 1%;
+    border: #996AD6 5px solid;
+    border-radius: 15px;
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.6);
+}
+
+h1.error {
+    color: #E40045;
+    text-shadow: 1px 1px 0 #94002D;
+}
+
+h1.success {
+    color: #67E300;
+    text-shadow: 1px 1px 0 #439400;
+}
+
+@media (max-width: 1152px) and (min-width: 843px) {
+    .login_content .column {
+        min-width: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 843px) {
+    .login_content .column {
+        min-width: 250px;
+        width: 250px;
+    }
+}
+
+
+

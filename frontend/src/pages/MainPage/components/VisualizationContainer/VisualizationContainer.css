@@ -1,0 +1,18 @@
+.column {
+    transition-duration: 1000ms;
+}
+
+#areas {
+    width: 326px;
+    height: 326px;
+}
+
+@media (max-width: 1152px) and (min-width: 843px) {
+}
+
+@media (max-width: 843px) {
+    #areas {
+        width: 196px;
+        height: 196px;
+    }
+}

@@ -1,0 +1,111 @@
+.login_form {
+    padding: 30px 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.login_form .field_block {
+    margin: 0 0 8% 0;
+    width: 300px;
+}
+
+.login_form input {
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 2%;
+    width: 300px;
+    color: #330570;
+    border-color: #4F2982;
+    box-shadow: 2px 2px #330570;
+    background-color: #996AD6;
+    font-size: 16px !important;
+    outline: none;
+    transition-duration: 500ms;
+}
+
+.login_form input:focus {
+    border-color: #A65F00 !important;
+    box-shadow: 0 2px 2px #FF9200 !important;
+}
+
+.login_form label {
+    color: #FF9200;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.login_form input::placeholder {
+    color: #330570;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.login_form .buttons_block {
+    justify-content: space-between;
+    display: inline-flex;
+    width: 300px;
+    vertical-align: 2px;
+    margin: 10px 0 0 0;
+}
+
+.login_form .send_button {
+    padding: 10px 15px;
+    background-color: #996AD6 !important;
+    color: #330570 !important;
+    border-color: #4F2982 !important;
+    box-shadow: 0 2px 2px #FF9200 !important;
+    font-weight: 700;
+    outline: none;
+    transition-duration: 750ms;
+}
+
+.login_form .send_button:hover {
+    background-color: #330570 !important;
+    color: white !important;
+    border-color: #67E300 !important;
+    box-shadow: 0 -2px 4px #67E300 !important;
+}
+
+.login_form .input_err {
+    background-color: #E40045;
+    border-color: #94002D;
+    box-shadow: 0 4px 4px #94002D;
+}
+
+@media (max-width: 1152px) and (min-width: 843px) {
+
+}
+
+@media (max-width: 843px) {
+    .login_form {
+        padding: 10px 0;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .login_form .field_block {
+        margin: 0 0 8% 0;
+        width: 200px;
+    }
+
+    .login_form label {
+        font-size: 14px;
+
+    }
+
+    .login_form input {
+        width: 200px;
+        font-size: 12px !important;
+    }
+
+    .login_form .buttons_block {
+
+        width: 200px;
+        margin: 5px 0 0 0;
+    }
+
+    .login_form .send_button {
+        padding: 3px 5px;
+        font-size: 12px;
+        box-shadow: 0 1px 1px #FF9200 !important;
+    }
+
+}

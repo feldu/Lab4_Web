@@ -1,0 +1,31 @@
+h1, h2 {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF9200;
+    margin: 30px 0 60px 0;
+}
+
+h1:after {
+    content: '';
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    width: 30%;
+    height: 3px;
+    background-color: #530FAD;
+    margin-bottom: -30px;
+}
+
+@media (max-width: 1152px) and (min-width: 843px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 843px) {
+    h1, h2 {
+        font-size: 12px;
+    }
+}
