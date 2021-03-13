@@ -1,6 +1,6 @@
 export const SIGN_IN = 'SIGN_IN';
 export const SIGN_OUT = 'SIGN_OUT';
-export let VALIDATE_USER = "VALIDATE_USER";
+export const VALIDATE_USER = "VALIDATE_USER";
 export const SHOW_MESSAGE = 'SHOW_MESSAGE';
 export const HIDE_MESSAGE = 'HIDE_MESSAGE';
 
